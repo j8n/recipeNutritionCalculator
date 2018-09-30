@@ -1,0 +1,21 @@
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.c-input {
+
+}
+.c-input-number {
+	width: 40px;
+}
+.c-input-string {
+	width: 100px;
+}
+.c-table {
+	font-size: 11px;
+}
+.c-nav {
+	
+}
