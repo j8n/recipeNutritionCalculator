@@ -127,8 +127,8 @@
 				totalSugars: (this.nutrients.sugars * this.properties.amount / 100),
 				totalProtein: (this.nutrients.protein * this.properties.amount / 100),
 				totalFat: (this.nutrients.fat * this.properties.amount / 100),
-				totalSaturatedFats: (this.nutrients.saturated * this.properties.amount / 100),
-				totalTransFats: (this.nutrients.trans * this.properties.amount / 100),
+				totalSaturated: (this.nutrients.saturated * this.properties.amount / 100),
+				totalTrans: (this.nutrients.trans * this.properties.amount / 100),
 				totalSodium: (this.nutrients.sodium * this.properties.amount / 100)
 			}
 		};
@@ -220,8 +220,8 @@
 			totalSugars += totals.totalSugars;
 			totalProtein += totals.totalProtein;
 			totalFat += totals.totalFat;
-			totalFatSaturated += totals.totalSaturatedFats;
-			totalFatTrans += totals.totalTransFats;
+			totalFatSaturated += totals.totalSaturated;
+			totalFatTrans += totals.totalTrans;
 			totalSodium += totals.totalSodium;
 		};
 
