@@ -269,7 +269,9 @@
 	**********************************/
 	App.removeLastListIngredient = function(){
 		var last = App.ingredients[App.ingredients.length - 1];
-		last.remove();
+		if(last){
+			last.remove();
+		}
 	};
 
 
